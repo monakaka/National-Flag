@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flag-container {
+    width: 100vh;
+    height: 90vh;
+}
+
+.flag-box {
+    background-color: green;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    left: 50%;
+    top: 5%;
+}
+
+.red-circle {
+    width: 175px;
+    height: 175px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.flag-stand {
+    width: 25px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    top: 93%;
+    border-top-right-radius: 30px;
+}
+
+.peaking {
+    width: 50px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
